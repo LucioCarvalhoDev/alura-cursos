@@ -1,0 +1,66 @@
+.header {
+    background: url("./../img/destaque.jpeg") no-repeat;
+    background-size: cover;
+}
+
+.header .menu {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+.header .menu-item a {
+    text-transform: uppercase;
+    padding: 1rem;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.137);
+    margin: 0 5px;
+    transition: background-color 500ms;
+    text-decoration: none;
+    color: white;
+}
+
+.header .menu-item a:hover {
+    background: cadetblue;
+}
+
+.header .jumbotron {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 0 44px 0;
+}
+
+.header .panel-main .title,
+header .panel-main .subtitle {
+    text-shadow: 4px 4px 10px black;
+}
+
+.header .panel-main .title {
+    font-size: 3em;
+    color: #fdfdfd;
+}
+
+.header .panel-main .subtitle {
+    font-size: 2.75em;
+    color: rgb(14, 201, 14);
+}
+
+.header .panel-subscribe {
+    margin-top: 28px;
+}
+
+.header .jumbotron .button {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #fdfdfd;
+    text-decoration: none;
+    padding: 25px 50px;
+    background-color: #48a3a6;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 800px) {
+    .header .jumbotron {
+        font-size: 20px;
+    }
+}

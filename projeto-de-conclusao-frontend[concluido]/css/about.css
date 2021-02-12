@@ -1,0 +1,21 @@
+.panel-about {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px 0;
+}
+
+.panel-about * {
+    margin-top: 10px;
+}
+
+.panel-about .title {
+    font-size: 2em;
+}
+
+.panel-about .subtitle {
+    font-size: 1.5em;
+}
+
+.panel-about .description {
+    line-height: 1.5rem;
+}

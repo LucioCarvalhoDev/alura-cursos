@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/about.css">
+  <link rel="stylesheet" href="./css/speakers.css">
+  <link rel="stylesheet" href="./css/inscribe.css">
+  <title>Aluraconf</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <ul class="menu">
+        <li class="menu-item">
+          <a data-target="a_panel-main">Sobre</a>
+        </li>
+        <li class="menu-item">
+          <a data-target="a_panel-speakers">Palestrantes</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="jumbotron">
+      <section class="panel-main" id="a_panel-main">
+        <h1 class="title">aluraconf</h1>
+        <h2 class="subtitle">30maio|rio</h2>
+      </section>
+      <section class="panel-subscribe">
+        <a data-target="a_panel-inscribe" class="button">Inscreva-se</a>
+      </section>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="panel-about container">
+      <h3 class="title">Muito conteúdo: do frontend ao backend</h3>
+      <h4 class="subtitle">30 de maio de 2017 - na Cidade Maravilhosa</h4>
+      <div class="description">
+        <p>Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolvedor mobile.
+        </p>
+        <p>É uma grande chance de ficar por dentro dos assuntos de Android , IOS, Web mobile, desenvolvimento híbrido,
+          UX, além da parte backend com Rest, Microservices e BigData. O desenvolvidor atualizado vai estar aqui.
+        </p>
+      </div>
+    </section>
+    <section class="panel-speakers" id="a_panel-speakers">
+      <div class="container">
+        <h3 class="title">palestrantes</h3>
+      <h4 class="subtitle">Aprenda com palestrantes que são referências na comunidade</h4>
+      <ul class="speakers">
+        <li class="speaker">
+          <figure class="speaker-portrait">
+            <img src="https://picsum.photos/200" alt="foto do palestrante">
+            <figcaption class="speaker-name">Flávio Almeida</figcaption>
+            <p class="speaker-bio">Desenvolvedor e instrutor - Alura/Caelum</p>
+          </figure>
+
+          <p class="speaker-phase">To be or not to MEAN</p>
+        </li>
+        <li class="speaker">
+          <figure class="speaker-portrait">
+            <img src="https://picsum.photos/200" alt="foto do palestrante">
+            <figcaption class="speaker-name">Flávio Almeida</figcaption>
+            <p class="speaker-bio">Desenvolvedor e instrutor - Alura/Caelum</p>
+          </figure>
+
+          <p class="speaker-phase">To be or not to MEAN</p>
+        </li>
+        <li class="speaker">
+          <figure class="speaker-portrait">
+            <img src="https://picsum.photos/200" alt="foto do palestrante">
+            <figcaption class="speaker-name">Flávio Almeida</figcaption>
+            <p class="speaker-bio">Desenvolvedor e instrutor - Alura/Caelum</p>
+          </figure>
+
+          <p class="speaker-phase">To be or not to MEAN</p>
+        </li>
+        <li class="speaker">
+          <figure class="speaker-portrait">
+            <img src="https://picsum.photos/200" alt="foto do palestrante">
+            <figcaption class="speaker-name">Flávio Almeida</figcaption>
+            <p class="speaker-bio">Desenvolvedor e instrutor - Alura/Caelum</p>
+          </figure>
+
+          <p class="speaker-phase">To be or not to MEAN</p>
+        </li>
+        <li class="speaker">
+          <figure class="speaker-portrait">
+            <img src="https://picsum.photos/200" alt="foto do palestrante">
+            <figcaption class="speaker-name">Flávio Almeida</figcaption>
+            <p class="speaker-bio">Desenvolvedor e instrutor - Alura/Caelum</p>
+          </figure>
+
+          <p class="speaker-phase">To be or not to MEAN</p>
+        </li>
+        <li class="speaker">
+          <figure class="speaker-portrait">
+            <img src="https://picsum.photos/200" alt="foto do palestrante">
+            <figcaption class="speaker-name">Flávio Almeida</figcaption>
+            <p class="speaker-bio">Desenvolvedor e instrutor - Alura/Caelum</p>
+          </figure>
+
+          <p class="speaker-phase">To be or not to MEAN</p>
+        </li>
+      </ul>
+      </div>
+    </section>
+    <section class="panel-inscribe container" id="a_panel-inscribe">
+      <form class="form">
+        <h3 class="title">seus dados</h3>
+        <div class="fields">
+          <div class="field-name">
+            <label for="ipt-name">nome</label>
+            <input type="text" name="" id="ipt-name">
+          </div>
+          <div class="field-email">
+            <label for="ipt-email">e-mail</label>
+            <input type="email" name="" id="ipt-email">
+          </div>
+        </div>
+        <button class="button">realizar inscrição</button>
+      </form>
+
+    </section>
+  </main>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
