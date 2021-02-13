@@ -1,13 +1,6 @@
-class NegociacoesView {
+class NegociacoesView extends View<Negociacoes> {
 
-    _target:Element;
-
-    constructor (seletor:string) {
-        this._target = document.querySelector(seletor);
-    }
-
-    private template(negociacoes:Negociacao[]): string {   
-
+    template(negociacoes: Negociacoes): string {   
         return (`
             <table class="table table-hover table-bordered">
                 <thead>
@@ -20,7 +13,7 @@ class NegociacoesView {
                 </thead>
 
                 <tbody>
-                    ${negociacoes.map(negociacao => {
+                    ${negociacoes.paraArray().map(negociacao => {
                         return (`
                             <tr>
                                 <td>${negociacao.formatarData()}</td>
@@ -29,16 +22,12 @@ class NegociacoesView {
                                 <td>${negociacao.volume}</td>
                             </tr>
                         `)
-                    })}
+                    }).join("")}
                 </tbody>
 
                 <tfoot>
                 </tfoot>
         </table> 
         `)
-    }
-
-    update(negociacoes:Negociacao[]): void {
-        this._target.innerHTML = this.template(negociacoes);
     }
 }

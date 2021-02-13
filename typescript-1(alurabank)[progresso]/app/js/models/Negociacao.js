@@ -5,7 +5,7 @@ class Negociacao {
         this._valor = _valor;
     }
     formatarData() {
-        return `${this._data.getDay()}/${this._data.getMonth()}/${this.data.getFullYear()}`;
+        return `${this._data.getDate()}/${this._data.getMonth() + 1}/${this.data.getFullYear()}`;
     }
     get data() {
         return this._data;
