@@ -1,0 +1,33 @@
+#mensagensView {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 20px;
+}
+
+#mensagensView .message-text {
+    color: white;
+    background: black;
+    font-size: 1.6rem;
+    padding: 10px 15px;
+    border-radius: 50px;
+    animation: message 3s forwards;
+}
+
+@keyframes message{
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
