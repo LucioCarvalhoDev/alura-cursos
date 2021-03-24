@@ -1,0 +1,17 @@
+body{
+    padding: 3rem 5rem;
+}
+
+.item-container{
+    display: flex;
+}
+
+.item-container > div{
+    width: 50%;
+}
+
+.item{
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    padding: 10px;
+}
